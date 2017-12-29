@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GradeBot</title>
+        <meta name="description" content="GradeBot">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+    </head>
+    <body>
+        <div id="center">
+            <h1>GradeBot</h1>
+            <div id="tabsContainer">
+                
+                <div id="tabs">
+                    <a id="tab1" href="#container1" class="tooltip">
+                        <span class="tooltiptext">Produces the grade needed to achieve a certain final grade</span> 
+                        GRADE NEEDED
+                    </a>
+                    <a id="tab2" href="#container2" class="tooltip">
+                        <span class="tooltiptext">Produces the final grade based on a predicted grade</span> 
+                        PREDICTED GRADE</a>
+                    <a id="tab3" href="#container3"  class="tooltip">
+                        <span class="tooltiptext">Produces the possible grades received based on a final grade</span> 
+                        GRADE RECEIVED</a>
+                    <a id="tab4" href="#container4"  class="tooltip">
+                        <span class="tooltiptext">Converts a percentage to a mark based on total marks</span> 
+                        CONVERT % TO MARK</a>
+                </div>
+                
+                <div id="container">
+                    <div id="container1">
+                        <br>
+                        <p>Current Grade:</p>
+                        <input type="text" id="currentGrade1">
+                        <p>Desired Grade:</p>
+                        <input type="text" id="desiredGrade1">
+                        <p>Percentage Worth:</p>
+                        <input type="text" id="percent1">
+                        <input type="button" value="&#10097&#10097" id="submit1">
+                        <br>
+                        <p id="result1">Minimum Mark Needed: </p>
+                    </div>
+                    
+                    <div id="container2">
+                        <br>
+                        <p>Current Grade:</p>
+                        <input type="text" id="currentGrade2">
+                        <p>Perdicted Grade:</p>
+                        <input type="text" id="predictedGrade2">
+                        <p>Percentage Worth:</p>
+                        <input type="text" id="percent2">
+                        <input type="button" value="&#10097&#10097" id="submit2">
+                        <br>
+                        <p id="result2">Predicted Final Mark: </p>
+                    </div>
+                    
+                    <div id="container3">
+                            <br>
+                            <p>Former Grade:</p>
+                            <input type="text" id="formerGrade3">
+                            <p>Final Grade:</p>
+                            <input type="text" id="finalGrade3">
+                            <p>Percentage Worth:</p>
+                            <input type="text" id="percent3">
+                            <input type="button" value="&#10097&#10097" id="submit3">
+                            <br>
+                            <p id="result3">Possible Received Grade(s): </p>
+                    </div>
+                    
+                    <div id="container4">
+                            <br>
+                            <p>Percent Grade:</p>
+                            <input type="text" id="percentGrade4">
+                            <p>Total Marks:</p>
+                            <input type="text" id="totalMarks4">
+                            <input type="button" value="&#10097&#10097" id="submit4">
+                            <br>
+                            <p id="result4">Possible Mark(s) Received: </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <script src="script.js"></script>
+    </footer>
+</html>
+
