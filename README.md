@@ -1,7 +1,7 @@
 # gradebot
 Calculating your Grade needs 
 
-<a href="href="https://amy-liang.github.io/gradebot/">
+<a href="https://amy-liang.github.io/gradebot/">
 <img src="https://i.imgur.com/Dd8P5hn.png">
 </a>
 
